@@ -1,6 +1,6 @@
 /* You can add global styles to this file, and also import other style files */
 * {
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif, Arial, sans-serif;
   font-weight: 200;
 }
 
@@ -38,4 +38,18 @@ button:focus{
 
 .p-1 {
   padding: 1px;
+}
+
+.row{
+  display: flex;
+}
+
+.col {
+  flex-grow: 2;
+  margin-right: 10px;
+}
+
+input{
+  display: block;
+  margin: 10px;
 }
